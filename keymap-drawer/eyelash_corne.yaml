@@ -21,7 +21,7 @@ layers:
   - F
   - G
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:mouse-left-click-outline$$', h: '$$mdi:mouse-right-click-outline$$'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - H
   - {t: J, h: NAV}
