@@ -120,10 +120,10 @@
         adjust_layer {
             display-name = "ADJUST";
             bindings = <
-&kp ESCAPE      &none           &kp UP_ARROW    &none            &kp TAB    &none                          &none         &none  &none  &none  &none  &none  &kp DELETE
-&kp LEFT_SHIFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none      &none                   &none  &none  &none  &none  &none  &none  &none  &none  &kp LA(LC(DELETE))
-&kp LCTRL       &kp Z           &kp X           &none            &none      &none         &tog 5           &none         &none  &none  &none  &none  &none  &none
-                                                &kp ENTER        &kp SPACE  &kp LEFT_ALT                                 &none  &none  &none
+&kp ESCAPE      &kp Q           &kp UP_ARROW    &kp R            &kp TAB    &none                                   &kp UP_ARROW                     &none  &none           &kp UP_ARROW  &none            &none  &kp DELETE
+&kp LEFT_SHIFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp F      &none                   &kp LEFT_ARROW  &none           &kp RIGHT_ARROW  &none  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT_ARROW  &none  &none
+&kp LCTRL       &kp Z           &kp X           &kp C            &kp V      &kp B         &tog 5                    &kp DOWN_ARROW                   &none  &kp M           &none         &none            &none  &none
+                                                &kp ENTER        &kp SPACE  &kp LEFT_ALT                                                             &none  &none           &none
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
