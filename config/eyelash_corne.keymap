@@ -74,7 +74,7 @@
                               &kp LEFT_ALT  &kp SPACE  &lt 1 LC(LA(TAB))                                                                &lt 2 LA(TAB)  &kp BACKSPACE  &kp LCTRL
             >;
 
-            sensor-bindings = <&inc_dec_msc>;
+            sensor-bindings = <&inc_dec_msc &rsr_trans>;
         };
 
         num_sym_layer {
