@@ -44,13 +44,6 @@
             bindings = <&mkp>, <&mkp>;
         };
 
-        inc_dec_msc: inc_dec_msc {
-            compatible = "zmk,behavior-runtime-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            tap-ms = <5>;
-            cw-binding = <&msc SCRL_LEFT>;
-            ccw-binding = <&msc SCRL_RIGHT>;
-        };
     };
 
     combos {
@@ -74,7 +67,7 @@
                               &kp LEFT_ALT  &kp SPACE  &lt 1 LC(LA(TAB))                                                                &lt 2 LA(TAB)  &kp BACKSPACE  &kp LCTRL
             >;
 
-            sensor-bindings = <&inc_dec_msc &rsr_trans>;
+            sensor-bindings = <&rsr_vol &rsr_trans>;
         };
 
         num_sym_layer {
