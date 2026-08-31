@@ -48,6 +48,7 @@
             compatible = "zmk,behavior-sensor-rotate-var";
             #sensor-binding-cells = <2>;
             bindings = <&msc>, <&msc>;
+
             tap-ms = <20>;
         };
     };
@@ -73,7 +74,7 @@
                               &kp LEFT_ALT  &kp SPACE  &lt 1 LC(LA(TAB))                                                                &lt 2 LA(TAB)  &kp BACKSPACE  &kp LCTRL
             >;
 
-            sensor-bindings = <&rsr_vol &rsr_trans>;
+            sensor-bindings = <&inc_dec_msc SCRL_RIGHT SCRL_LEFT>, <&rsr_trans>;
         };
 
         num_sym_layer {
