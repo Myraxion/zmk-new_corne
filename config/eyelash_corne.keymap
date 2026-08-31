@@ -72,10 +72,10 @@
         num_sym_layer {
             display-name = "NUMSYM";
             bindings = <
-&kp INS  &kp SPACE     &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &kp BACKSPACE                               &kp UP_ARROW                     &kp GRAVE  &kp EXCLAMATION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AMPERSAND  &kp SINGLE_QUOTE
-&trans   &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6  &kp ENTER                   &kp LEFT_ARROW  &kp ENTER       &kp RIGHT_ARROW  &kp MINUS  &kp HASH         &kp ASTERISK          &kp CARET              &kp DOLLAR     &kp SINGLE_QUOTE
-&trans   &kp DOT       &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp SPACE      &kp LNLCK                    &kp DOWN_ARROW                   &kp EQUAL  &kp AT_SIGN      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &kp PERCENT
-                                     &kp RIGHT_ALT  &kp RCTRL     &trans                                                                       &trans     &trans           &trans
+&kp INS        &kp SPACE     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp BACKSPACE                               &kp UP_ARROW                     &kp GRAVE  &kp EXCLAMATION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AMPERSAND  &kp DELETE
+&kp RIGHT_ALT  &kp NUMBER_0  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ENTER                   &kp LEFT_ARROW  &kp ENTER       &kp RIGHT_ARROW  &kp MINUS  &kp HASH         &kp ASTERISK          &kp CARET              &kp DOLLAR     &kp SINGLE_QUOTE
+&trans         &kp DOT       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SPACE      &kp LNLCK                    &kp DOWN_ARROW                   &kp EQUAL  &kp AT_SIGN      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &kp PERCENT
+                                           &trans        &kp RCTRL     &trans                                                                       &trans     &kp RIGHT_ALT    &trans
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
@@ -85,9 +85,9 @@
             display-name = "FN";
             bindings = <
 &kp ESCAPE  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                                           &msc SCRL_UP                     &kp F6        &kp F7        &kp F8        &kp F9        &kp F10       &kp BSPC
-&kp TAB     &kp F11       &kp F12       &kp F13       &kp F14       &kp F15                          &msc SCRL_LEFT  &mkp MCLK       &msc SCRL_RIGHT  &kp F16       &kp F17       &kp F18       &kp F19       &kp F20       &none
+&kp TAB     &kp F11       &kp F12       &kp F13       &kp F14       &kp F15                          &msc SCRL_LEFT  &mkp MCLK       &msc SCRL_RIGHT  &kp F16       &kp F17       &kp F18       &kp F19       &kp F20       &kp RCTRL
 &trans      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp PAUSE_BREAK                    &msc SCRL_DOWN                   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp LEFT_WIN
-                                        &trans        &kp RCTRL     &none                                                                             &none         &kp SPACE     &trans
+                                        &trans        &trans        &trans                                                                            &trans        &trans        &trans
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
