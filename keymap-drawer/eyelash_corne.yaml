@@ -62,8 +62,8 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - '&'
-  - {t: '''', s: '"'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:apple-keyboard-option$$
   - '0'
   - '4'
   - '5'
@@ -92,11 +92,11 @@ layers:
   - )
   - {t: \, s: '|'}
   - '%'
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:transfer$$', type: trans}
   FN:
   - $$mdi:keyboard-esc$$
@@ -126,7 +126,7 @@ layers:
   - F18
   - F19
   - F20
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:transfer$$', type: trans}
   - '1'
   - '2'
@@ -142,10 +142,10 @@ layers:
   - '0'
   - LEFT WIN
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   NAV:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
